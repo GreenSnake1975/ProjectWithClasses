@@ -1,0 +1,18 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "PowerShell: Launch GetNetworkInfo.ps1",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${workspaceFolder}\\GetNetworkInfo.ps1",
+            "cwd": "${workspaceFolder}",
+//            "args": [ "-MainGW 10.0.64.1 -SwitchListCSV C:\\Working\\mac-ip-sw\\ProjectWithClasses\\switches-BRN-K30.csv -OutReport C:\\Working\\mac-ip-sw\\ProjectWithClasses\\LAN_MAP#brn-k30.csv" ]
+            "args": [ "-MainGW 10.1.0.1 -SwitchListCSV C:\\Working\\mac-ip-sw\\ProjectWithClasses\\switches-MSK-MK26.csv -OutReport C:\\Working\\mac-ip-sw\\ProjectWithClasses\\LAN_MAP#msk-mk26.csv" ]
+        }
+    ]
+}
